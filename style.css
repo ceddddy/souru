@@ -1,0 +1,39 @@
+/*Navigation bar*/
+
+#navigationBar {
+  display: flex;
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: teal;
+  justify-content: space-between;
+  
+}
+
+/*Navigation links*/
+
+#navLinks {
+  color: currentColor;
+  text-decoration: none;
+  padding: 7px;
+}
+
+#navLinks a:hover {
+color: teal;
+}
+
+#mainNav a:hover {
+  /*color: teal;*/
+  background-color:black;
+}
+
+/*H1*/
+
+#headingOne {
+  font-family: cursive;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  color: teal;
+  /*cursor: not-allowed;*/
+}
